@@ -1,2 +1,22 @@
-# attention-trace-downloads
-Public installer downloads for Attention Trace. Runtime packages only; no source archive or browsing data.
+# Attention Trace 下载
+
+这里仅发布安装包，不包含完整源码、浏览记录或文档内容。
+
+## 0.5.0 preview
+
+在本仓库 Releases 下载 `attention-trace-unpacked-v0.5.0-preview.zip`。安装包包含 19 个运行时和许可证文件，版本为 0.5.0。
+
+### 安装与升级
+
+1. 解压安装包。
+2. Chrome 打开 `chrome://extensions`，开启开发者模式。
+3. 点击「加载已解压的扩展程序」，选择包含 `manifest.json` 的目录。
+4. 刷新要使用的网页，再主动开启记录。
+
+升级时先停止记录，将新版文件替换到原扩展目录，再点击扩展卡片的重新加载。不要卸载或清空浏览器数据，以免丢失本地历史。
+
+记录保存在本机；导出与分享由你决定。鼠标停留和页面曝光不代表眼动、理解或偏好。区域文字识别依赖页面可访问的 DOM；跨域框架、Canvas、虚拟化和权限限制可能导致缺失，不保证所有文档兼容。
+
+SHA-256：`cbe0feb7e2a89e3697160545acdb5cb8c44640aa1af424cfffd4ff0683c0b952`
+
+第三方许可证和署名随安装包提供。
